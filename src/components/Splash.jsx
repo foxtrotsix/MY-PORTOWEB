@@ -169,7 +169,7 @@ export default function Splash({ onDone }) {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="mt-4 font-mono text-sm text-dim"
         >
-          Yuan B Albyan — booting personal uplink
+          Yuan B Albyan - booting personal uplink
         </motion.p>
 
         <div className="mt-10 flex h-24 w-full max-w-md flex-col items-start justify-end gap-1 overflow-hidden text-left font-mono text-xs text-dim">

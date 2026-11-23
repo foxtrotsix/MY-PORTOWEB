@@ -31,7 +31,7 @@ export default function Footer() {
         <div className="mt-12 flex flex-col items-start justify-between gap-2 border-t border-line pt-6 font-mono text-[11px] text-dim sm:flex-row sm:items-center">
           <p>© {new Date().getFullYear()} {profile.name}. All rights reserved.</p>
           <p>
-            built with <span className="text-accent">React + Tailwind + Lenis</span> — no_restart_needed
+            built with <span className="text-accent">React + Tailwind + Lenis</span>  no_restart_needed
           </p>
         </div>
       </div>

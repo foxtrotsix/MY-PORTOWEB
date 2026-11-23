@@ -7,16 +7,16 @@ Kalau tidak tahu jawaban, tulis `-` (placeholder akan dibiarkan).
 
 ## 1. Profil Pribadi (`profile`)
 
-1. **Nama lengkap** (untuk tampil di Hero — akan dibagi 2 baris: kata pertama & sisanya)?
+1. **Nama lengkap** (untuk tampil di Hero  akan dibagi 2 baris: kata pertama & sisanya)?
 2. **Nama panggilan / nama yang ingin ditonjolkan** (opsional)?
 3. **Role / jabatan utama** (misal: "IT & Robotics Engineer", "Full-Stack Developer")?
-4. **Tagline** — satu kalimat singkat yang menjual dirimu (misal: "Engineering intelligent machines with code, circuits & motion")?
+4. **Tagline**  satu kalimat singkat yang menjual dirimu (misal: "Engineering intelligent machines with code, circuits & motion")?
 5. **Alamat email kontak**?
 6. **Kota / lokasi** (misal: "Jakarta, Indonesia")?
 
-### Paragraf "About Me" (`about` — 2 paragraf)
-7. **Paragraf 1** — siapa kamu, bidangmu, apa yang kamu suka kerjakan?
-8. **Paragraf 2** — pengalaman/spesialisasi tambahan, hobi, atau apa yang sedang kamu pelajari?
+### Paragraf "About Me" (`about`  2 paragraf)
+7. **Paragraf 1**  siapa kamu, bidangmu, apa yang kamu suka kerjakan?
+8. **Paragraf 2**  pengalaman/spesialisasi tambahan, hobi, atau apa yang sedang kamu pelajari?
 
 ### Fakta / Angka (`facts`)
 9. **Tahun pengalaman** (angka)?
@@ -28,7 +28,7 @@ Kalau tidak tahu jawaban, tulis `-` (placeholder akan dibiarkan).
 
 ## 2. Sosial Media (`socials`)
 
-Untuk tiap platform (GitHub, LinkedIn, X/Twitter, Instagram, YouTube) — beri **URL lengkap** (atau hapus yang tidak dipakai):
+Untuk tiap platform (GitHub, LinkedIn, X/Twitter, Instagram, YouTube)  beri **URL lengkap** (atau hapus yang tidak dipakai):
 
 13. GitHub → URL profil?
 14. LinkedIn → URL profil?
@@ -39,7 +39,7 @@ Untuk tiap platform (GitHub, LinkedIn, X/Twitter, Instagram, YouTube) — beri *
 
 ---
 
-## 3. Projects (`projects` — isi sampai 6 project)
+## 3. Projects (`projects`  isi sampai 6 project)
 
 Untuk **setiap project**, jawab:
 19. **Judul** project?
@@ -52,18 +52,18 @@ Untuk **setiap project**, jawab:
 
 ---
 
-## 4. Tim (`team` — maksimal 4 orang)
+## 4. Tim (`team`  maksimal 4 orang)
 
 Untuk **setiap anggota**, jawab:
 24. **Nama** anggota?
 25. **Peran / jabatan** di tim (misal: "Embedded Lead", "Computer Vision")?
-26. **Foto profil** — path/nama file, atau pakai placeholder?
+26. **Foto profil**  path/nama file, atau pakai placeholder?
 
 > Salin blok ini untuk setiap anggota (butuh maksimal 4).
 
 ---
 
-## 5. Bisnis / Layanan (`business` — maksimal 4)
+## 5. Bisnis / Layanan (`business`  maksimal 4)
 
 Untuk **setiap layanan**, jawab:
 27. **Judul** layanan (misal: "R&D Robotics", "IoT Solutions", "Software Studio", "Training & Workshop")?
@@ -74,7 +74,7 @@ Untuk **setiap layanan**, jawab:
 
 ---
 
-## 6. Gallery (`gallery` — maksimal 6 foto)
+## 6. Gallery (`gallery`  maksimal 6 foto)
 
 Untuk **setiap foto**, jawab:
 30. **Nama file foto** (taruh di folder `src/assets/gallery/`) atau URL gambar?
@@ -93,4 +93,4 @@ Untuk **setiap foto**, jawab:
 ## Catatan pengisian
 - Semua jawaban cukup ditulis berurutan dengan nomor yang sama, langsung di chat ini.
 - Setelah semua terisi, saya yang memindahkannya ke `src/data.js` dan menyesuaikan ikon/foto.
-- Foto bisa diganti nanti kapan saja tanpa sentuh kode — cukup taruh file di `src/assets/` dan update path di `data.js`.
+- Foto bisa diganti nanti kapan saja tanpa sentuh kode  cukup taruh file di `src/assets/` dan update path di `data.js`.

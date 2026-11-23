@@ -1,6 +1,7 @@
 import { useRef } from "react"
 import { motion, useScroll, useTransform } from "motion/react"
 import Float from "./Float.jsx"
+import Robot from "./Robot.jsx"
 import { profile } from "../data.js"
 
 export default function Hero() {
@@ -115,7 +116,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.5 }}
           className="mt-8 max-w-xl text-lg leading-relaxed text-dim"
         >
-          <span className="text-ink">{profile.role}</span> — {profile.tagline}
+          <span className="text-ink">{profile.role}</span>  {profile.tagline}
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -140,20 +141,10 @@ export default function Hero() {
 
       <motion.div
         style={{ y: panelY }}
-        className="absolute right-[8%] top-[22%] hidden select-none lg:block"
+        className="absolute right-[8%] top-[22%] z-0 hidden select-none lg:block"
         aria-hidden
       >
-        <Float duration={5} y={18}>
-          <div className="flex h-56 w-56 rotate-12 items-center justify-center rounded-2xl border border-line bg-panel/60 font-mono text-xs text-dim backdrop-blur-sm">
-            <div className="text-center leading-loose">
-              <span className="text-accent">status:</span> ONLINE
-              <br />
-              <span className="text-accent">sensors:</span> 42
-              <br />
-              <span className="text-accent">power:</span> 98%
-            </div>
-          </div>
-        </Float>
+        <Robot progress={scrollYProgress} />
       </motion.div>
 
       <motion.div

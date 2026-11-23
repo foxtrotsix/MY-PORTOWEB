@@ -17,7 +17,7 @@ export default function About() {
               <p>
                 <span className="text-accent">$</span> whoami
               </p>
-              <p>&gt; {profile.name} — {profile.role}</p>
+              <p>&gt; {profile.name}  {profile.role}</p>
               <p>
                 <span className="text-accent">$</span> mail --to {profile.email}
               </p>

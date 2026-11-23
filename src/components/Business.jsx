@@ -1,6 +1,7 @@
 import { business } from "../data.js"
 import Section from "./Section.jsx"
 import Reveal from "./Reveal.jsx"
+import TiltCard from "./TiltCard.jsx"
 
 export default function Business() {
   const single = business.length === 1
@@ -20,13 +21,14 @@ export default function Business() {
                       left ? "-left-2" : "-left-2"
                     }`}
                   />
-                  <a
-                    href={b.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    data-cursor="link"
-                    className="group block w-full overflow-hidden rounded-2xl border border-line bg-panel transition-all hover:-translate-y-1 hover:border-accent"
-                  >
+                  <TiltCard className="w-full">
+                    <a
+                      href={b.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      data-cursor="link"
+                      className="group block w-full overflow-hidden rounded-2xl border border-line bg-panel transition-all hover:-translate-y-1 hover:border-accent"
+                    >
                     {b.img && (
                       <div className="relative aspect-[16/7] overflow-hidden">
                         <img
@@ -57,7 +59,8 @@ export default function Business() {
                         visit website <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
                       </p>
                     </div>
-                  </a>
+                    </a>
+                  </TiltCard>
                 </div>
               </Reveal>
             )
